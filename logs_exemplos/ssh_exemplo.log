@@ -1,0 +1,8 @@
+Jan 1 10:00:00 server sshd[1234]: Failed password for root from 192.168.1.100 port 22 ssh2
+Jan 1 10:00:01 server sshd[1235]: Failed password for root from 192.168.1.100 port 22 ssh2
+Jan 1 10:00:02 server sshd[1236]: Failed password for admin from 192.168.1.100 port 22 ssh2
+Jan 1 10:00:03 server sshd[1237]: Accepted password for user1 from 192.168.1.50 port 22 ssh2
+Jan 1 10:00:04 server sshd[1238]: Failed password for root from 192.168.1.100 port 22 ssh2
+Jan 1 10:00:05 server sshd[1239]: Invalid user hacker from 192.168.1.100
+Jan 1 10:01:00 server sshd[1240]: Failed password for root from 192.168.1.100 port 22 ssh2
+Jan 1 10:01:01 server sshd[1241]: Failed password for root from 192.168.1.100 port 22 ssh2
