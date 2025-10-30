@@ -25,25 +25,37 @@ Ferramenta Python para análise de logs de segurança, desenvolvida para analist
 
 ```bash
 # Clone o repositório
-git clone https://github.com/Erickmateus10/analisador-logs-soc.git
+git clone https://github.com/Erickmateus10/analisador-log-soc.git
 
 # Entre nessa pasta
 cd analisador-logs-soc
+'''
 
-🎯 Como Usar
-Modo Interativo (iniciantes)
-python analisador_soc.py 
+## 🎯 Como Usar
 
-Análise de logs SSH
-python analisador_soc.py --ssh /var/log/auth.log 
+### Modo Interativo (Iniciantes)
+```bash
+python analisador_soc.py
+```
 
-Análise de logs Web
-python analisador_soc.py --web /var/log/apache2/access.log 
+### Análise de logs SSH
+```bash
+python analisador_soc.py --ssh /var/log/auth.log
+```
 
-Análise Completa
-python analisador_soc.py --ssh auth.log --web access.log 
+### Análise de logs Web
+```bash
+python analisador_soc.py --web /var/log/apache2/access.log
+```
 
-📊 Exemplo de Saída:
+### Análise Completa
+```bash
+python analisador_soc.py --ssh auth.log --web access.log
+```
+
+## 📊 Exemplo de Saída
+
+```
 🔴 [ALERTA] IPs com múltiplas tentativas falhas:
    IP: 192.168.1.100 - 6 tentativas
 
@@ -51,4 +63,31 @@ python analisador_soc.py --ssh auth.log --web access.log
    • Tentativas falhas: 7
    • Logins bem-sucedidos: 1  
    • Padrões suspeitos: 2
-   
+```
+
+## 🎓 Casos de Uso no SOC
+
+- **Triagem inicial** de incidentes de segurança
+- **Identificação rápida** de IPs maliciosos
+- **Análise proativa** de tentativas de brute force
+- **Ferramenta educacional** para novos analistas
+- **Base para automação** de processos de SOC
+
+## 🏗️ Estrutura do Projeto
+
+```
+analisador-log-soc/
+├── 📄 analisador_soc.py    # Código principal
+├── 📁 logs_exemplos/       # Logs para teste
+├── 📄 README.md           # Documentação
+└── 📄 requirements.txt    # Dependências
+```
+
+## 👨‍💻 Autor
+
+**Erick Mateus** 
+- GitHub: [@Erickmateus10](https://github.com/Erickmateus10)
+
+---
+
+**⭐ Se este projeto te ajudou, deixe uma estrela no repositório!**
