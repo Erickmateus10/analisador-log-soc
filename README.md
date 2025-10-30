@@ -29,13 +29,12 @@ git clone https://github.com/Erickmateus10/analisador-log-soc.git
 
 # Entre nessa pasta
 cd analisador-logs-soc
-'''
+```
 
 ## 🎯 Como Usar
-
 ### Modo Interativo (Iniciantes)
 ```bash
-python analisador_soc.py
+python analisador_soc.py    
 ```
 
 ### Análise de logs SSH
