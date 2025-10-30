@@ -1,0 +1,2 @@
+# Python standard library only - no external dependencies
+# Este projeto usa apenas bibliotecas nativas do Python 
